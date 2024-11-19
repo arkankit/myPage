@@ -23,7 +23,7 @@ function App() {
   return (
     <div>
       <Header />
-      <div className="cards-container">
+      <div>
         <RedirectCard redirectLink = {myData[0].url} cardImage = {portfolioImage}/>
         <RedirectCard redirectLink = {myData[1].url} cardImage = {resumeImage}/>
         <RedirectCard redirectLink = {myData[2].url} cardImage = {nearbyLogo}/>
